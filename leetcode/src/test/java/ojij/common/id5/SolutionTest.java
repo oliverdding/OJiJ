@@ -5,10 +5,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
-
+    Solution solution = new Solution();
     @Test
     void longestPalindrome() {
-        Solution solution = new Solution();
         assertEquals(solution.longestPalindrome("babad"), "bab");
         assertEquals(solution.longestPalindrome("cbbd"), "bb");
     }
