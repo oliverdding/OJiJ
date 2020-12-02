@@ -1,4 +1,4 @@
-package ojij.common.p2;
+package ojij.common.id2;
 
 public class ListNode {
     int val;

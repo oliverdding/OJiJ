@@ -1,4 +1,4 @@
-package ojij.common.p1;
+package ojij.common.id1;
 
 import java.util.HashMap;
 import java.util.Map;

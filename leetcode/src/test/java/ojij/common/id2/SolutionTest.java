@@ -1,14 +1,13 @@
-package ojij.common.p2;
+package ojij.common.id2;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
-
+    Solution solution = new Solution();
     @Test
     void addTwoNumbers() {
-        Solution solution = new Solution();
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(3);
