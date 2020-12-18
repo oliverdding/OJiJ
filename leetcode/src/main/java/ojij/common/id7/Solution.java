@@ -19,12 +19,4 @@ public class Solution {
             result = -result;
         return result;
     }
-
-    int add(int x, int y) {
-        int result = x + y;
-        if (((x ^ result) & (y ^ result)) < 0) {
-            return -1;
-        }
-        return result;
-    }
 }
